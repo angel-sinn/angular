@@ -2,22 +2,25 @@
 
 <div>
   <label>Enter Length</label>
-  <input />
+  <input
+    #passwordLengthInput
+    (input)="onChangeLength(passwordLengthInput.value)"
+  />
 </div>
 
 <div>
   <label>Use Letters</label>
-  <input type="checkbox" />
+  <input (change)="onChangeUseLetters()" type="checkbox" />
 </div>
 
 <div>
   <label>Use Numbers</label>
-  <input type="checkbox" />
+  <input (change)="onChangeUseNumbers()" type="checkbox" />
 </div>
 
 <div>
   <label>Use Symbols</label>
-  <input type="checkbox" />
+  <input (change)="onChangeUseSymbols()" type="checkbox" />
 </div>
 
 <div>
