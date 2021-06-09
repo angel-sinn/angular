@@ -1,4 +1,6 @@
-# Password
+# Password Generator
+
+View live application: <a href="https://password-pi.vercel.app/" target="_blank">Password Generator</a>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
